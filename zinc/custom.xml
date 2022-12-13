@@ -1,0 +1,27 @@
+<theme>
+    <formatVersion>7</formatVersion>
+
+
+    <customView name="gamecarousel">
+
+        <!-- Arcade Background Vídeo -->
+        <video name="md_video_background" extra="true">
+            <origin>0 0</origin>
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./_assets/videos/arcade.mp4</path>
+            <showSnapshotDelay>false</showSnapshotDelay>
+            <delay>0</delay>
+            <effect>none</effect>
+            <zIndex>4</zIndex>
+        </video>
+
+        <!-- Video Game Preview -->
+        <video name="md_video, screenbg">
+            <pos>0.356 0.32</pos>
+            <size>0.284 0.35</size>
+        </video>
+
+    </customView>
+
+</theme>
